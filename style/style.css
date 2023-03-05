@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 15px;
+    letter-spacing: -.01em;
+}
+/* width */
+.w-10 {
+    width: 10%!important;
+}
+.mw-30 {
+    max-width: 30%!important;
+}
+/* mrgin topMinus */
+.mt {
+        margin-top: -4rem!important;
+}
+
+/* font-size */
+.fs-7 {
+    font-size: .875em!important;
+}
+/* iconFont */
+.fa-2sx {
+    font-size: 1.5em;
+}
+/* ciccleColor */
+.circleColor {
+    color: #d8831b;
+}
+/* svgImages */
+.svgImg {
+    width: 17px!important;
+    height: 17px!important;
+}
+/* svgDayligh */
+.dropDown-imgSize {
+    width : 30px!important;
+    height : 30px!important; 
+}
+.textColor {
+    color: #302e2e!important;
+}
+/* dropdoen hover */
+.navColor:hover .svgColor {
+    fill: #0000ff!important;
+}
+.navColor:hover {
+    color: #0000ff!important;
+}
+/* dropdoenSvg */
+.dropdoenSvg {
+    fill: #d8831b;
+}
+/* svgDark */
+.svgDark {
+    fill: #ffffff!important;
+}
+/* socialIconHovereffect */
+.fb:hover {
+    color: #3b5998!important;
+}
+.tw:hover {
+    color: #00acee!important;
+}
+.ld:hover {
+    color: #0a66ce!important;
+}
+.yt:hover {
+    color: #ff0000!important;
+}
+.vi:hover {
+    color: #86c9ef!important;
+}
+/* toggleDownArrow */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+/* nightime */
+.bg-darker {
+    background-color: #000!important;
+    color: #fff!important;
+}
+/* infoPanel */
+#bg-info {
+    background-color: #6bd2e93d;
+    border-radius: 10px;
+}
+/* casurosel icon */
+.iconSize {
+    width: 1rem!important;
+    height: 1rem!important;
+}
+.navBck {
+    width: 25px!important;
+    height: 25px!important;
+    background: #21252980!important;
+    border-radius: 50%!important;
+}
+/* cardHover */
+.bckHover { 
+    overflow: hidden;
+    position: relative;
+}
+.topFirstCard {
+    height: 500px;
+    background-image: url("../image/cover.jpg");
+}
+.firstCard {
+    height: 228px;
+    background-image: url("../image/firstCard.jpg");    
+    background-position: center left;
+}
+.secondCard {
+    height: 248px;
+    background-image: url("../image/03.jpg");    
+    background-position: center left;
+}
+.thirdCard {
+    height: 248px;
+    background-image: url("../image/04.jpg");
+}
+.imgHover {
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+.bckHover:hover .imgHover {
+    transform: scale(1.1);
+}
+.textStar {
+    position: absolute;
+    background-color: #0000ff;
+    text-align: center;
+    z-index: 99;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    top: -8px;
+    right: -48px;
+    width: 120px;
+    padding: 16px 0 3px 0;
+}
+.hoverIcon {
+    width: 10px;
+    height: 10px;
+}
+.bckHover:hover .hightter {
+    text-decoration: underline;
+}
+/* 2nd session */
+.fbBackground {
+    background-color: #3b5998;
+}
+.bd-red-500 {
+    background: radial-gradient(circle at 20% 130%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+/* 3rd session */
+.bd-first {
+    background-image: url("../image/06.jpg");
+    height: 300px;
+}
+.bd-second {
+    background-image: url("../image/05.jpg");
+    height: 300px;
+}
+/* trending */
+.oneTrending {
+    background-image: url("../image/03.jpg");
+}
+.twoTrending {
+    background-image: url("../image/04.jpg");
+}
+.threeTrending {
+    background-image: url("../image/05.jpg");
+}
+.fourTrending {
+    background-image: url("../image/06.jpg");
+}
+.fiveTrending {
+    background-image: url("../image/firstCard.jpg");
+}
